@@ -1,2 +1,2 @@
 # JavaScript
-primeiros passos com JS
+primeiros passos com JS.
