@@ -7,8 +7,8 @@
     <title>Começando</title>
     <style>
         body {
-            background-color: rgb(14, 16, 16);
-            color: rgb(237, 13, 222);
+            background-color: rgb(14, 16, 14);
+            color: rgb(237, 13, 222); /*COMENTÁRIO EM CSS*/
             font: Arial, 20pt, normal;
         }
         h1{
@@ -17,13 +17,23 @@
     </style>
 </head>
 <body>
-    <h1>Bem vindo! </h1>
+    <h1>Teste</h1><!--COMENTÁRIO EM HTML-->
     <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.</p1>
     <script>
         /*
-        window.alert('Bem vindo') //pop-up de mensagem
         window.confirm('Quer mesmo entrar no site?') //caixa interativa (OK/cancel)
-        window.prompt('Qual o seu nome?')//vai perguntar o nome...
+        
+        var nome = window.prompt('Qual o seu nome?')//vai perguntar o nome e armazenar dentro da variável nome, o prompt armazena uma string
+        window.alert('Bem vindo, ' + nome + '!')   
+        */ 
+
+      /* var n1 = Number(window.prompt('Digite um número'))
+        var n2 = Number(window.prompt('Digite outro número'))
+        var s = n1 + n2
+       // window.alert('A soma dos valores ' + n1 + ' e ' + n2 + ' é ' + s) 
+        window.alert(`A soma dos valores ${n1} e ${n2} é ${s}`) 
+  
+
         */
     </script>
 </body>
