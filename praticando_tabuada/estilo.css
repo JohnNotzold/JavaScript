@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(8, 36, 196, 0.486);
+    font: normal 17pt Arial;
+    color: yellow;
+
+}
+
+header{
+    color: rgb(240, 15, 191);
+    text-align: center;
+    background-color: rgb(65, 255, 65);
+    
+
+}
+
+section{
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: rgb(7, 255, 7);
+    box-shadow: 5px 5px 10px rgba(7, 255, 7, 0.89)
+}
+input{
+    height: 20px;
+    width: 50px ;
+    background-color: yellow;
+    text-align: center;
+    font: 15pt dark;
+}
+
+div#res{
+    margin-top: 10px;
+    font: Pink
+
+}
+input#button{
+    height: 25px;
+    width: 125px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12pt;
+    color: black;
+    background-color: yellow;
+}
+
+footer{
+    color: rgb(240, 15, 191);
+    text-align: center;
+    font-style: oblique;
+    margin-top: 100px;
+    font-size: 25pt;
+    box-shadow: 5px 5px 5px rgb(240, 15, 191);
+    background-color: rgb(65, 255, 65);
+    border-radius: 70%;
+    
+
+}
